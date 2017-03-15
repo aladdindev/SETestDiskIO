@@ -1,0 +1,6 @@
+﻿  testdiskio.c
+c:\users\umaster\desktop\testdiskio\testdiskio\testdiskio\testdiskio.c(91): warning C4133: 'function': incompatible types - from 'int *' to 'uint16_t *'
+c:\users\umaster\desktop\testdiskio\testdiskio\testdiskio\testdiskio.c(68): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'uint8_t *'
+c:\users\umaster\desktop\testdiskio\testdiskio\testdiskio\testdiskio.c(51): warning C4101: 'algTable': unreferenced local variable
+  testdiskio.vcxproj -> C:\Users\UMaster\Desktop\testdiskio\testdiskio\Debug\testdiskio.exe
+  testdiskio.vcxproj -> C:\Users\UMaster\Desktop\testdiskio\testdiskio\Debug\testdiskio.pdb (Full PDB)

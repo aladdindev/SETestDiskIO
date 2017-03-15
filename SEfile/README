@@ -1,0 +1,3 @@
+When compiling SEfile you are free to choose the sector size (ONLY IF IT IS A POWER OF 2).
+It is sufficient to add as parameter -DSEFILE_SECTOR_SIZE=$NEWSECTORSIZE where $NEWSECTORSIZE is the new sector size.
+If SEFILE_SECTOR_SIZE is not changed, it will automatically choose as sector size 512 Bytes.

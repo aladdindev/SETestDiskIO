@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\option">
+      <UniqueIdentifier>{8844d072-aabb-43e3-aa5c-ae48c3fe44b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\se3">
+      <UniqueIdentifier>{39b266ea-6d72-4369-905c-4b34a0a8a184}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="option\unicode.c">
+      <Filter>Source Files\option</Filter>
+    </ClCompile>
+    <ClCompile Include="option\syscall.c">
+      <Filter>Source Files\option</Filter>
+    </ClCompile>
+    <ClCompile Include="diskio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\SEfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\se3\aes256.c">
+      <Filter>Source Files\se3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\se3\crc16.c">
+      <Filter>Source Files\se3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\se3\L0.c">
+      <Filter>Source Files\se3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\se3\L1.c">
+      <Filter>Source Files\se3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\se3\pbkdf2.c">
+      <Filter>Source Files\se3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\se3\se3_common.c">
+      <Filter>Source Files\se3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\se3\se3comm.c">
+      <Filter>Source Files\se3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SEfile\se3\sha256.c">
+      <Filter>Source Files\se3</Filter>
+    </ClCompile>
+    <ClCompile Include="testdiskio.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="diskio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\aes256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\crc16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\L0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\L1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\pbkdf2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\se3_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\se3c0def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\se3c1def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\se3comm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\se3\sha256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SEfile\SEfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
